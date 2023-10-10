@@ -1,0 +1,10 @@
+all: true
+include:
+  - modules
+  - interfaces
+  - schema
+  - workers
+exclude:
+  - index.js
+  - '**/.eslint*'
+  - '**/test/**'
